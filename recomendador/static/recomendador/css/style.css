@@ -260,3 +260,34 @@ body {
 .btn-secondary:hover {
     background: #eef8ea;
 }
+
+
+#listasementes
+
+.difficulty {
+    background: #f1ead7;
+    color: #7a5a18;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.empty-state {
+    background: #ffffff;
+    border: 1px solid #dde8d8;
+    border-radius: 18px;
+    padding: 32px;
+    text-align: center;
+    grid-column: 1 / -1;
+}
+
+.empty-state h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.empty-state p {
+    color: #5c6b5c;
+}
